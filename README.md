@@ -1,18 +1,18 @@
-\# EcoBot
+# EcoBot
 
 
 
-\### Fire-Safe, Priority-Arbitrated Dual-ESP32 Robot for Garbage Detection and Obstacle Avoidance
+### Fire-Safe, Priority-Arbitrated Dual-ESP32 Robot for Garbage Detection and Obstacle Avoidance
 
 
 
-\[!\[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23614673.svg)](https://doi.org/10.5281/zenodo.23614673)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23614673.svg)](https://doi.org/10.5281/zenodo.23614673)
 
-\[!\[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
 
-!\[EcoBot architecture](images/System\_archi.jpeg)
+![EcoBot architecture](images/System_archi.jpeg)
 
 
 
@@ -24,7 +24,7 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Key Features
+## Key Features
 
 
 
@@ -40,11 +40,11 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## App
+## App
 
 
 
-!\[Mobile app](images/App\_screenshot.jpeg)
+![Mobile app](images/App_screenshot.jpeg)
 
 
 
@@ -52,17 +52,17 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
-\- firmware/ecobot\_dev.ino — Main controller: arbiter, motors, sensors
+\- firmware/ecobot_dev.ino — Main controller: arbiter, motors, sensors
 
-\- firmware/ecobot\_cam.ino — ESP32-CAM: vision pipeline, FOMO inference
+\- firmware/ecobot_cam.ino — ESP32-CAM: vision pipeline, FOMO inference
 
-\- images/System\_archi.jpeg — Architecture diagram
+\- images/System_archi.jpeg — Architecture diagram
 
-\- images/App\_screenshot.jpeg — Mobile app screenshot
+\- images/App_screenshot.jpeg — Mobile app screenshot
 
 \- training/ — Training images (biodegradable / non-biodegradable / background)
 
@@ -72,7 +72,7 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Hardware
+## Hardware
 
 
 
@@ -98,7 +98,7 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -112,7 +112,7 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Results
+## Results
 
 
 
@@ -136,11 +136,11 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Getting Started
+## Getting Started
 
 
 
-1\. Flash firmware/ecobot\_dev.ino to the ESP32 DevKit and firmware/ecobot\_cam.ino to the ESP32-CAM using Arduino IDE.
+1\. Flash firmware/ecobot_dev.ino to the ESP32 DevKit and firmware/ecobot_cam.ino to the ESP32-CAM using Arduino IDE.
 
 2\. Set your Wi-Fi credentials in both sketches.
 
@@ -148,7 +148,7 @@ This repository contains the firmware source code and the full image dataset use
 
 
 
-\## Citation
+## Citation
 
 
 
