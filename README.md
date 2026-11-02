@@ -145,7 +145,7 @@ This repository contains the firmware source code and the full image dataset use
 
 2\. Set your Wi-Fi credentials in both sketches.
 
-3\. Train your own FOMO model on the provided dataset via Edge Impulse, or use the included training/ and testing/ folders directly.
+3\. Train your own FOMO model on the provided dataset via Edge Impulse or use the included training/ and testing/ folders directly.
 
 
 
