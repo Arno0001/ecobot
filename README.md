@@ -73,12 +73,14 @@ This repository contains the firmware source code and the full image dataset use
 
 
 ## Hardware
+ 
+![EcoBot hardware components](images/hardware.jpeg)
 
+*Labeled hardware: perception/actuation (left) and control/power (right).*
 
 
 | Component | Role |
 
-|---|---|
 
 | ESP32 DevKit | Main controller, priority arbiter |
 
@@ -118,7 +120,6 @@ This repository contains the firmware source code and the full image dataset use
 
 | Metric | Result |
 
-|---|---|
 
 | Pick-and-sort accuracy | 34/40 correct (85.0%) |
 
